@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,18 +15,18 @@
         <div class="header">
             <div class="wrapper">
                 <div class="nav-top">
-                    <ul class="info-left">
+                    <ul class="info info-left">
                         <li class="info-item">Have any questions?</li>
-                        <li class="info-item"><a class="info-link" href="mailto:support@example.com">support@example.com</a></li>
-                        <li class="info-item"><a class="info-link" href="tel:+1814251152">+1 814 251 152</a></li>
+                        <li class="info-item"><a class="info-link" href="mailto:support@example.com"><i class="fas fa-envelope"></i>support@example.com</a></li>
+                        <li class="info-item"><a class="info-link" href="tel:+1814251152"><i class="fas fa-phone-alt"></i>+1 814 251 152</a></li>
                     </ul>
-                    <ul class="info-right">
-                        <li class="info-item"><a class="info-link" href="">Login</a></li>
-                        <li class="info-item"><a class="info-link" href="">Register</a></li>
+                    <ul class="info info-right">
+                        <li class="info-item"><a class="info-link" href=""><i class="fas fa-sign-out-alt"></i>Login</a></li>
+                        <li class="info-item"><a class="info-link register" href="">Register</a></li>
                     </ul>
                 </div>
                 <div class="head">
-                    <img src="img/logo.svg" alt="Logo">
+                    <img class="logo" src="img/logo-main.svg" alt="Logo">
                     <nav>
                         <ul class="nav">
                             <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
@@ -35,8 +37,8 @@
                             <li class="nav-item"><a class="nav-link" href="">Shortcodes</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Features</a></li>
                             <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-                            <li><button></button></li>
-                            <li><button></button></li>
+                            <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-search"></i></button></li>
+                            <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-share-alt"></i></button></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,40 +57,49 @@
             <div class="wrapper">
                 <div class="box center">
                     <div class="box-item">
+                        <div class="box-icon"><i class="fas fa-mobile-alt"></i></div>
                         <h2>100% Responsive Design</h2>
                         <p class="decription">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     </div>
                     <div class="box-item box-item-center">
+                        <div class="box-icon"><i class="far fa-lightbulb"></i></div>
                         <h2>Unlimited Features</h2>
                         <p class="decription">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     </div>
                     <div class="box-item">
+                        <div class="box-icon box-icon-pen"><i class="fas fa-pencil-alt"></i></div>
                         <h2>Fully Customizable</h2>
                         <p class="decription">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     </div>
                 </div>
                 </div>
         </div>
-        <div class="wrapper">
-            <h2 class="title-h2"><span>About Our Company</span>Who We Are?</h2>
-            <div></div>
-            <p class="decription">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-            <p class="decription">Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-            <ul class="list-decription">
-                <li>Simplify compelling innovation and long-term high.</li>
-                <li>Quickly streamline focused deliverables whereas progressive.</li>
-            </ul>
-            <a href="#">Read More</a>
-        </div>
-        
-        <div class="wrapper center">
-            <h2 class="title-h2"><span>See Portfolio</span>Recent Works?</h2>
-            <div></div>
-            <p class="decrition">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>    
-        </div>
+        <div class="wrapper page-mockup">
+            <div class="box-text">
+                <h2 class="title-h2"><span>About Our Company</span>Who We Are?</h2>
+                <div class="line"></div>
+                <p class="decription">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                <p class="decription">Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
+                <ul class="list-decription">
+                    <li>Simplify compelling innovation and long-term high.</li>
+                    <li>Quickly streamline focused deliverables whereas progressive.</li>
+                </ul>
+                <a class="btn-blue" href="#">Read More</a>
+            </div> 
+            <div class="mockup"></div>
+        </div>  
+        <div class="page page-gray">
+            <div class="wrapper center">
+                <h2 class="title-h2"><span>See Portfolio</span>Recent Works?</h2>
+                <div></div>
+                <p class="decrition">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>    
+            </div>
+        </div> 
+
         </main>
     <footer>
 
     </footer>
+    <script src="js/all.min.js"></script>
 </body>
 </html>
