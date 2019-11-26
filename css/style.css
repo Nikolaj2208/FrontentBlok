@@ -1,417 +1,519 @@
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: 'Lato', sans-serif; /* подключение шрифта 'Lato' */
+    font-weight: 400;   /* устанавливает насыщенность шрифта */
+    font-size: 16px; /* размер шрифта */
 }
 .wrapper {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    position: relative;
+    width: 100%; /* ширина */
+    max-width: 1170px; /* максимальная ширина */
+    margin: 0 auto; /* внешний отступ */
+    position: relative; /* позиционирование */
 }
 .center {
-    text-align: center;
+    text-align: center; /* горизонтальное выранивание */
 }
 .header {
-    padding-bottom: 214px;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
+    padding-bottom: 214px; /* внутрений отступ снизу */
+    background-image: url(../img/bg.png); /* фоновое изображение */
+    background-repeat: no-repeat; /* повтор изображения */
 }
 .nav-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* преобразование в блочный элемент */ /* преобразование в блочный элемент */
+    justify-content: space-between; /* Равномерно распределяются по всей строке. Первый и последний элемент прижимаются к краям контейнера.*/ /* Равномерно распределяются по всей строке. Первый и последний элемент прижимаются к краям контейнера.*/
+    align-items: center; /* выравнивание элементов по линии поперечной оси */ /* выравнивание элементов по линии поперечной оси */
 }
 .info {
-    display: flex;
-    padding-left: 0;
-    list-style-type: none;
-    align-items: center;
+    display: flex; /* преобразование в блочный элемент */
+    padding-left: 0; /* внутренний отступ слева */
+    list-style-type: none; /* изменение вида маркера списка */ /* изменение вида маркера списка */
+    align-items: center; /* выравнивание элементов по линии поперечной оси */
 }
 .info-item,
 .info-link {
-    color: rgba(255,255,255,0.3);
-    font-size: 14px;
+    color: rgba(255,255,255,0.3); /* цвет шрифта */
+    font-size: 14px; /* размер шрифта */
 }
 .info-link:hover {
-    color: #30a3f0;
+    color: #30a3f0; /* цвет шрифта */
 }
 .info-left .info-item {
-    margin-right: 32px;
+    margin-right: 32px; /* внешний отступ справа */
 }
 .info-right .info-item {
-    margin-left: 6px;
+    margin-left: 6px; /* внешний отступ слева */
 }
 .info-link {
-    text-decoration: none;
+    text-decoration: none; /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */ /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */
 }
 .info-link svg{
-    color: #30a3f0;
-    margin-right: 11px;
+    color: #30a3f0; /* цвет шрифта */
+    margin-right: 11px; /* внешний отступ справа */
 }
 .register::before {
     contain: '/';
-    margin-right: 6px;
+    margin-right: 6px; /* внешний отступ справа */
 }
 .nav-btn{
-    background-color: transparent;
-    border: none;
-    padding: 0;
+    background-color: transparent; /* цвет фона */
+    border: none; /* граница элемента */
+    padding: 0; /* внутренний отступ */
 }
 .nav-btn svg {
-    color: #444444;
+    color: #444444; /* цвет шрифта */
 }
 .logo{
-    width: 158px;
+    width: 158px; /* ширина */
 }
 .head {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 26px 40px 25px;
-    margin-bottom: 220px;
+    background-color: #fff; /* цвет фона */
+    display: flex; /* преобразование в блочный элемент */
+    align-items: center; /* выравнивание элементов по линии поперечной оси */
+    justify-content: space-between; /* Равномерно распределяются по всей строке. Первый и последний элемент прижимаются к краям контейнера.*/
+    padding: 26px 40px 25px; /* внутренний отступ */
+    margin-bottom: 220px; /* внешний отступ снизу */
 }
 .nav {
-    list-style-type: none;
-    padding-left: 0;
-    display: flex;
+    list-style-type: none; /* изменение вида маркера списка */
+    padding-left: 0; /* внутренний отступ слева */
+    display: flex; /* преобразование в блочный элемент */
 }
 .nav-item {
-    margin-left: 8px;
+    margin-left: 8px; /* внешний отступ слева */
 }
 .nav-item-btn {
-    margin-left: 21px;
+    margin-left: 21px; /* внешний отступ слева */
 }
 .nav-link {
-    color: #444444;
-    text-decoration: none;
-    padding: 11px 19px 12px;
-    border: 1px solid transparent;
+    color: #444444; /* цвет шрифта */
+    text-decoration: none; /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */
+    padding: 11px 19px 12px; /* внутренний отступ */
+    border: 1px solid transparent; /* граница элемента */
 }
 .nav-link.active {
-    color: #30a3f0;
-    border: 1px solid #30a3f0;
-    border-radius: 5px;
-    padding: 11px 19px 12px;
+    color: #30a3f0; /* цвет шрифта */ 
+    border: 1px solid #30a3f0; /* граница элемента */
+    border-radius: 5px; /* радиус скругления углов рамки/изображения */
+    padding: 11px 19px 12px; /* внутренний отступ */
 }
 .nav-link:hover {
-    color: #30a3f0;
-    border-radius: 5px;
+    color: #30a3f0; /* цвет шрифта */
+    border-radius: 5px; /* радиус скругления углов рамки/изображения */
 }
 .title {
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* внешний отступ снизу */
 }
 .title p {
-    font-family: 'Raleway', sans-serif;
-    color: #30a3f0;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif; /*подключение шрифта 'Raleway'*/
+    color: #30a3f0; /* цвет шрифта */
+    font-size: 18px; /* размер шрифта */
 }
 .title h1 {
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 60px;
-    max-width: 720px;
-    margin: 0 auto;
+    font-family: 'Raleway', sans-serif; /*подключение шрифта 'Raleway'*/
+    color: #fff; /* цвет шрифта */
+    font-weight: 800; /* устанавливает насыщенность шрифта */
+    text-transform: uppercase; /* изменение регистра текста */
+    font-size: 45px; /* размер шрифта */
+    line-height: 60px; /* для блочных элементов определяет минимальную высоту строки текста. */
+    max-width: 720px; /* максимальная ширина */
+    margin: 0 auto; /* внешний отступ */
 }
 .element {
-    width: 1px;
-    height: 100px;
-    background-color: #2b88c7;
-    margin: 0 auto;
+    width: 1px; /* ширина */
+    height: 100px; /* высота элемента */
+    background-color: #2b88c7; /* цвет фона */
+    margin: 0 auto; /* внешний отступ */
 }
 .element-top {
-    margin-bottom: 29px;
+    margin-bottom: 29px; /* внешний отступ снизу */
 }
 .element-bottom {
-    margin-top: 32px;;
+    margin-top: 32px; /* внешний отступ сверху */
 }
 .btn {
-    font-size: 14px;
-    font-weight: 700;
-    color: #30a3f0;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid #30a3f0;
-    padding: 20px 42px;
-    border-radius: 5px;
-    transition: background-color 0.5s linear, color 0.2s ease;
+    font-size: 14px; /* размер шрифта */
+    font-weight: 700; /* устанавливает насыщенность шрифта */
+    color: #30a3f0; /* цвет шрифта */
+    text-transform: uppercase; /* изменение регистра текста */ /* изменение регистра текста */
+    text-decoration: none; /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */
+    border: 1px solid #30a3f0; /* граница элемента */
+    padding: 20px 42px; /* внутренний отступ */
+    border-radius: 5px; /* радиус скругления углов рамки/изображения */
+    transition: background-color 0.5s linear, color 0.2s ease; /* устанавливает анимацию */
 }
 .btn:hover {
-    background-color: #30a3f0;
-    color: #fff;
+    background-color: #30a3f0; /* цвет фона */
+    color: #fff; /* цвет шрифта */
 }
 .page-line {
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4; /* устанавливает границу снизу */
 }
 .page-gray {
-    background-color: #fafafa;
-    padding-top: 100px;
-    padding-bottom: 62px;
+    background-color: #fafafa; /* цвет фона */
+    padding-top: 100px; /* внутренний отступ сверху */
 }
 .box {
-    display: flex;
-    border-left: 1px solid #e4e4e4;
-    border-right: 1px solid #e4e4e4;
+    display: flex; /* преобразование в блочный элемент */
+    border-left: 1px solid #e4e4e4; /* устанавливает границу слева */
+    border-right: 1px solid #e4e4e4; /* устанавливает границу справа */
 }
 .box-item {
-    flex-basis: 33.333%;
-    padding: 93px 60px 110px;
+    flex-basis: 33.333%; /* устанавливает изначальный размер элемента*/
+    padding: 93px 60px 110px; /* внутренний отступ */
 }
 .box-item-center {
-    border-left: 1px solid #e4e4e4;
-    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4; /* устанавливает границу слева */
+    border-right: 1px solid #e4e4e4; /* устанавливает границу справа */
 }
 .box h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 27px;
+    font-family: 'Raleway', sans-serif; /* подключение шрифта 'Raleway' */
+    font-weight: 600; /* устанавливает насыщенность шрифта */
+    font-size: 20px; /* размер шрифта */
+    margin-bottom: 27px; /* внешний отступ снизу */
 }
 .title-h2 {
-    font-size: 30px;
-    font-weight: 800;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 14px;
+    font-size: 30px;/* размер шрифта */
+    font-weight: 800; /* устанавливает насыщенность шрифта */
+    font-family: 'Raleway', sans-serif; /* подключение шрифта 'Raleway' */
+    text-transform: uppercase; /* изменение регистра текста */
+    margin-bottom: 14px; /* внешний отступ снизу */
 }
 .title-h2 span {
-    font-size: 16px;
-    color: #30a3f0;
-    display: block;
-    font-weight: 400;
-    text-transform: initial;
-    margin-bottom: 18px;
+    font-size: 16px; /* размер шрифта */
+    color: #30a3f0; /* цвет шрифта */
+    display: block; /* преобразует элемент в блочный */ /* преобразует элемент в блочный */
+    font-weight: 400; /* устанавливает насыщенность шрифта */
+    text-transform: initial; /* изменение регистра текста */
+    margin-bottom: 18px; /* внешний отступ снизу */
 }
 .line {
-    display: block;
-    width: 53x;
-    height: 16px;
-    background-image: url(../img/line.svg);
-    background-repeat: no-repeat;
+    display: block; /* преобразует элемент в блочный */
+    width: 53x; /* ширина */
+    height: 16px; /* высота элемента */
+    background-image: url(../img/line.svg); /* фоновое изображение */
+    background-repeat: no-repeat; /* повтор изображения */
 }
 .line-center {
-    display: block;
-    width: 90px;
-    height: 14px;
-    background-image: url(../img/line-center.svg);
-    background-repeat: no-repeat;
-    margin: 0 auto 30px;
+    display: block; /* преобразует элемент в блочный */
+    width: 90px; /* ширина */
+    height: 14px; /* высота элемента */
+    background-image: url(../img/line-center.svg); /* фоновое изображение */
+    background-repeat: no-repeat; /* повтор изображения */
+    margin: 0 auto 30px; /* внешний отступ */
 }
 .description {
-    color: #707070;
-    line-height: 26px;
+    color: #707070; /* цвет шрифта */
+    line-height: 26px; /* для блочных элементов определяет минимальную высоту строки текста. */
 }
-.page-gray .description {
-    max-width: 690px;
-    margin: 0 auto;
+.page-gray .description,
+.page-team .description {
+    max-width: 690px; /* максимальная ширина */
+    margin: 0 auto; /* внешний отступ */
 }
 .list-description {
-    color: #222222;
-    padding-left: 0;
-    list-style-type: none;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    color: #222222; /* цвет шрифта */
+    padding-left: 0; /* внутренний отступ слева */
+    list-style-type: none; /* изменение вида маркера списка */
+    margin-top: 40px; /* внешний отступ сверху */
+    margin-bottom: 60px; /* внешний отступ снизу */
 }
 .list-description > li {
-    margin-bottom: 27px;
-    color: #222222;
-    padding-left: 37px;
-    position: relative;
+    margin-bottom: 27px; /* внешний отступ снизу */
+    color: #222222; /* цвет шрифта */
+    padding-left: 37px; /* внутренний отступ слева */
+    position: relative; /* позиционирование */
 }
 .list-description > li::before {
     content: '';
-    display: block;
-    width: 16px;
-    height: 14px;
-    background-image: url(../img/check.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    left: 0;
-    top: calc(50% - 7px);
+    display: block; /* преобразует элемент в блочный */
+    width: 16px; /* ширина */
+    height: 14px; /* высота элемента */
+    background-image: url(../img/check.png); /* фоновое изображение */
+    background-repeat: no-repeat; /* повтор изображения */
+    background-size: contain;/* масштабирует фоновое изображение, согласно заданным размерам */
+    position: absolute; /* позиционирование */
+    left: 0; /* для позиционированного элемента определяет расстояние от левого края родительского элемента, не включая отступ, поле и ширину рамки, до левого края дочернего элемента */
+    top: calc(50% - 7px); /* для позиционированного элемента определяет расстояние от верхнего края родительского элемента до верхнего края дочернего элемента */
 }
 .page-mockup {
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 100px; /* внешний отступ сверху */
+    padding-bottom: 100px; /* внутрений отступ снизу */
 }
 .mockup {
-    display: block;
-    width: 625px;
-    height: 557px;
-    background-image: url(../img/mockup.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -78px;
-    bottom: 0;
+    display: block; /* преобразует элемент в блочный */
+    width: 625px; /* ширина */
+    height: 557px; /* высота элемента */
+    background-image: url(../img/mockup.png); /* фоновое изображение */
+    background-size: contain; /* масштабирует фоновое изображение, согласно заданным размерам */
+    background-repeat: no-repeat; /* повтор изображения */
+    position: absolute; /* позиционирование */
+    right: -78px; /* для позиционированного элемента определяет расстояние от правого края родительского элемента, не включая отступ, поле и ширину рамки, до правого края дочернего элемента */
+    bottom: 0; /* устанавливает положение нижнего края содержимого элемента без учёта толщины рамок и отступов */
 }
 .btn-blue {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    background-color: #30a3f0;
-    border: 1px solid #30a3f0;
-    padding: 21px 39px 19px;
-    border-radius: 5px;
-    transition: background-color 0.5s linear, color 0.2s ease;
+    font-size: 14px; /* размер шрифта */
+    font-weight: 700; /* устанавливает насыщенность шрифта */
+    text-transform: uppercase; /* изменение регистра текста */
+    text-decoration: none; /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */
+    color: #fff; /* цвет шрифта */
+    background-color: #30a3f0; /* цвет фона */
+    border: 1px solid #30a3f0; /* граница элемента */
+    padding: 21px 39px 19px; /* внутренний отступ */
+    border-radius: 5px; /* радиус скругления углов рамки/изображения */
+    transition: background-color 0.5s linear, color 0.2s ease; /* устанавливает анимацию */
 }
 .btn-blue:hover {
-    color: #30a3f0;
-    background-color: transparent;
-}
+    color: #30a3f0; /* цвет шрифта */
+    background-color: transparent; /* цвет фона */
+} 
 .box-text {
-    max-width: 530px;
+    max-width: 530px; /* максимальная ширина */
 }
 .box-icon {
-    width: 152px;
-    height: 152px;
-    font-size: 40px;
-    line-height: 3.5;
-    color: #222222;
-    background-image: url(../img/gray.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin: 0 auto;
+    width: 152px; /* ширина */
+    height: 152px; /* высота элемента */
+    font-size: 40px; /* размер шрифта */
+    line-height: 3.5; /* для блочных элементов определяет минимальную высоту строки текста. */
+    color: #222222; /* цвет шрифта */
+    background-image: url(../img/gray.png); /* фоновое изображение */
+    background-repeat: no-repeat; /* повтор изображения */
+    background-position: center center; /* задаёт начальное положение фонового изображения, установленного с помощью свойства background-image */
+    margin: 0 auto; /* внешний отступ */
 }
 .box-icon-pen {
-    font-size: 30px;
-    line-height: 4.8;
+    font-size: 30px; /* размер шрифта */
+    line-height: 4.8; /* для блочных элементов определяет минимальную высоту строки текста. */
 }
 .box-icon-min {
-    font-size: 24px;
-    width: 96px;
-    height: 96px;
-    background-size: 96px 96px;
-    flex-basis: 96px;
-    text-align: center;
-    line-height: 3.8;
-    margin: initial;
+    font-size: 24px; /* размер шрифта */
+    width: 96px; /* ширина */
+    height: 96px; /* высота элемента */
+    background-size: 96px 96px; /* масштабирует фоновое изображение, согласно заданным размерам */
+    flex-basis: 96px; /* устанавливает изначальный размер элемента*/
+    text-align: center; /* горизонтальное выранивание */
+    line-height: 3.8; /* для блочных элементов определяет минимальную высоту строки текста. */
+    margin: initial; /* внешний отступ */
 }
 .box-item:hover .box-icon{
-    background-image: url(../img/blue.png);
-    color: #fff;
+    background-image: url(../img/blue.png); /* фоновое изображение */
+    color: #fff; /* цвет шрифта */
 }
 .photo {
-    display: flex;
+    display: flex; /* преобразование в блочный элемент */
+    margin-top: 62px; /* внешний отступ сверху */
 }
 .photo-item {
-    overflow: hidden;
-    flex-basis: 20%;
-    height: 350px;
-    position: relative;
+    overflow: hidden; /* Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров */
+    flex-basis: 20%; /* устанавливает изначальный размер элемента*/
+    height: 350px; /* высота элемента */
+    position: relative; /* позиционирование */
 }
 .photo-item img {
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    height: 350px;
-    z-index: -1;
+    width: 100%; /* ширина */
+    position: absolute; /* позиционирование */
+    left: 50%; /* Для позиционированного элемента определяет расстояние от левого края родительского элемента, не включая отступ, поле и ширину рамки, до левого края дочернего элемента */
+    top: 50%; /* для позиционированного элемента определяет расстояние от верхнего края родительского элемента до верхнего края дочернего элемента */
+    transform: translate(-50%, -50%); /* трансформирует элемент, в частности, позволяет его масштабировать, вращать, сдвигать, наклонять, а также комбинировать виды трансформаций, перечисляя функции трансформации через пробел */
+    object-fit: cover; /* управляет соотношением сторон заменяемых элементов, таких как <img> и <video>, когда у них задана ширина или высота, а также способом масштабирования. */
+    height: 350px; /* высота элемента */
+    z-index: -1; /* определяет слой, на котором находится объект */
 }
 .photo-text {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: calc(50% - 30px);
-    display: none;
+    position: absolute; /* позиционирование */
+    width: 100%; /* ширина */
+    text-align: center; /* горизонтальное выранивание */
+    top: calc(50% - 30px); /* для позиционированного элемента определяет расстояние от верхнего края родительского элемента до верхнего края дочернего элемента */
+    display: none; /* временно удаляет элемент из документа. */
 }
 .photo-text h3 {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: 'Releway', sans-serif;
-    color: #fff;
-    margin-bottom: 14px;
-    margin-top: 0;
-    text-transform: uppercase;
+    font-size: 22px; /* размер шрифта */
+    font-weight: 700; /* устанавливает насыщенность шрифта */
+    font-family: 'Releway', sans-serif; /*подключение шрифта 'Raleway'*/
+    color: #fff; /* цвет шрифта */
+    margin-bottom: 14px; /* внешний отступ снизу */
+    margin-top: 0; /* внешний отступ сверху */
+    text-transform: uppercase; /* изменение регистра текста */
 
 }
 .photo-text p {
-    color: #707070;
-    margin-bottom: 0;
+    color: #707070; /* цвет шрифта */
+    margin-bottom: 0; /* внешний отступ снизу */
 }
 .photo-item:hover {
-    background-color: rgba(34,34,34,0.8);
+    background-color: rgba(34,34,34,0.8); /* цвет фона */
 }
 .photo-item:hover .photo-text {
-    display: block;
+    display: block; /* преобразует элемент в блочный */
 }
 .photo-btn {
-    display: flex;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    display: flex; /* преобразование в блочный элемент */
+    position: absolute; /* позиционирование */
+    right: 0; /* для позиционированного элемента определяет расстояние от правого края родительского элемента, не включая отступ, поле и ширину рамки, до правого края дочернего элемента */
+    bottom: 0; /* устанавливает положение нижнего края содержимого элемента без учёта толщины рамок и отступов */
 }
 .photo-btn-link {
-    position: relative;
-    width: 60px;
-    height: 60px;   
-    background-color: #fff;
-    color: #222222;
-    display: none;
+    position: relative; /* позиционирование */
+    width: 60px; /* ширина */
+    height: 60px; /* высота элемента */
+    background-color: #fff; /* цвет фона */
+    color: #222222; /* цвет шрифта */
+    display: none; /* временно удаляет элемент из документа. */
 }
 .photo-btn-link svg {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    top: calc(50% - 8px);
+    display: block; /* преобразует элемент в блочный */
+    position: relative; /* позиционирование */
+    margin: 0 auto; /* внешний отступ */
+    top: calc(50% - 8px); /* для позиционированного элемента определяет расстояние от верхнего края родительского элемента до верхнего края дочернего элемента */
 }
 .photo-item:hover .photo-btn-link {
-    display: block;
+    display: block; /* преобразует элемент в блочный */
 }
 .photo-btn-link:hover {
-    background-color: #30a3f0;
-    color: #fff;
+    background-color: #30a3f0; /* цвет фона */
+    color: #fff; /* цвет шрифта */
 }
 .grid {
     display: grid;
     grid-template:  1fr 1fr 1fr / 1fr 1fr 1fr;
     grid-gap: 70px 50px;
-    margin-top: 125px;
-    margin-bottom: 127px;
+    margin-top: 125px; /* внешний отступ сверху */
+    margin-bottom: 127px; /* внешний отступ снизу */
 }
 .grid h3 {
-    font-family: 'Releway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 22px;
-    margin-top: 0;
+    font-family: 'Releway', sans-serif; /* подключение шрифта 'Raleway' */
+    font-weight: 600; /* устанавливает насыщенность шрифта */
+    font-size: 18px; /* размер шрифта */
+    margin-bottom: 22px; /* внешний отступ снизу */
+    margin-top: 0; /* внешний отступ сверху */
 }
 .grid .description {
-    margin-bottom: 0;
+    margin-bottom: 0; /* внешний отступ снизу */
 }
 .grid-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* преобразование в блочный элемент */
+    justify-content: space-between; /* Равномерно распределяются по всей строке. Первый и последний элемент прижимаются к краям контейнера.*/
+    align-items: center; /* выравнивание элементов по линии поперечной оси */
 }
 .grid-line-text {
-    flex-basis: calc(100% - 126px);
+    flex-basis: calc(100% - 126px); /* устанавливает изначальный размер элемента*/
 }
 .grid-item:hover .box-icon-min {
-    background-image: url(../img/blue-min.png);
-    color: #fff;
+    background-image: url(../img/blue-min.png); /* фоновое изображение */
+    color: #fff; /* цвет шрифта */
 }
 .page-bg {
-    background-image: url(../img/banner.png);
-    background-size: cover;
-    padding-top: 110px;
-    padding-bottom: 112px;
+    background-image: url(../img/banner.png); /* фоновое изображение */
+    background-size: cover; /* масштабирует фоновое изображение, согласно заданным размерам */
+    padding-top: 110px; /* внутренний отступ сверху */
+    padding-bottom: 112px; /* внутрений отступ снизу */
 }
 .page-bg .title {
-    margin-bottom: 0;
+    margin-bottom: 0; /* внешний отступ снизу */
 }
 .page-bg .title-h1 {
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* внешний отступ снизу */
 }
 .page-bg .element-bottom {
-    margin-top: 53px;
+    margin-top: 53px; /* внешний отступ сверху */
+}
+.page-team {
+    padding-top: 100px; /* внутренний отступ сверху */
+    padding-bottom: 100px; /* внутрений отступ снизу */
+}
+.team {
+    display: flex; /* преобразование в блочный элемент */
+    justify-content: space-between; /* Равномерно распределяются по всей строке. Первый и последний элемент прижимаются к краям контейнера.*/
+    align-items: flex-start; /* выравнивание элементов по линии поперечной оси */
+    mask-type: 60px;
+}
+.team-item {
+    flex-basis: 32%; /* устанавливает изначальный размер элемента*/
+}
+.team-thumb {
+    margin-bottom: 40px; /* внешний отступ снизу */
+    background-color: rgba(255, 255, 255, 0.5); /* цвет фона */
+    position: relative; /* позиционирование */
+    overflow: hidden; /* Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров */
+    width: 100%; /* ширина */
+    height: 370px; /* высота элемента */
+}
+.team-thumb img {
+    position: absolute; /* позиционирование */
+    left: 50%; /* Для позиционированного элемента определяет расстояние от левого края родительского элемента, не включая отступ, поле и ширину рамки, до левого края дочернего элемента */
+    top: 50%; /* для позиционированного элемента определяет расстояние от верхнего края родительского элемента до верхнего края дочернего элемента */
+    transform: translate(-50%, -50%); /* трансформирует элемент, в частности, позволяет его масштабировать, вращать, сдвигать, наклонять, а также комбинировать виды трансформаций, перечисляя функции трансформации через пробел */
+    object-fit: cover; /* управляет соотношением сторон заменяемых элементов, таких как <img> и <video>, когда у них задана ширина или высота, а также способом масштабирования. */
+    z-index: -1; /* определяет слой, на котором находится объект */
+}
+.team-item:hover .team-thumb {
+    background-color: rgba(255, 255, 255, 0); /* цвет фона */
+}
+.team-position {
+    font-size: 14px; /* размер шрифта */
+    color: #30a3f0; /* цвет шрифта */
+    margin-bottom: 14px; /* внешний отступ снизу */
+}
+.team-name {
+    font-family: 'Releway', sans-serif; /* подключение шрифта 'Raleway' */
+    font-weight: 600; /* устанавливает насыщенность шрифта */
+    color: #222222; /* цвет шрифта */
+    margin-bottom: 20px; /* внешний отступ снизу */
+}
+.team-social {
+    list-style-type: none; /* изменение вида маркера списка */
+    padding-left: 0; /* внутренний отступ слева */
+    display: flex; /* преобразование в блочный элемент */
+    justify-content: center;
+}
+.team-social-item {
+    margin-right: 5px; /* внешний отступ справа */
+    margin-left: 5px; /* внешний отступ слева */
+}
+.team-social-item > a {
+    color: #c9c9c9; /* цвет шрифта */
+    text-decoration: none; /* оформление текста ввиде подчёркивания, перечёркивания или линии над текстом */
+    background-image: url(../img/gray.png); /* фоновое изображение */
+    background-size: 40px 40px; /* масштабирует фоновое изображение, согласно заданным размерам */
+    background-position: center center; /* задаёт начальное положение фонового изображения, установленного с помощью свойства background-image */
+    background-repeat: no-repeat; /* повтор изображения */
+    display: block; /* преобразует элемент в блочный */ 
+    width: 40px; /* ширина */
+    height: 40px; /* высота элемента */
+    text-align: center; /* горизонтальное выранивание */
+    font-size: 14px; /* размер шрифта */
+    line-height: 2.8; /* для блочных элементов определяет минимальную высоту строки текста. */
+}
+.team-social-item > a:hover {
+    color: #fff; /* цвет шрифта */
+    background-image: url(../img/blue-min.png); /* фоновое изображение */
+}
+.screen {
+    margin-top: 57px;
+}
+.page-stat {
+    background-color: #111111;
+    color: #fff;
+    padding-top: 116px;
+    padding-bottom: 114px;
+}
+.box-stat {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.box-stat svg {
+    color: #30a3f0;
+    font-size: 60px;
+}
+.box-stat h3 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+.box-stat h3 span {
+    color: #707070;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 24px;
 }
